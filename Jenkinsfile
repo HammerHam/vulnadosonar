@@ -6,7 +6,8 @@ pipeline {
             steps {
                 
          sh '''#!/bin/bash
-                 mvn deploy
+                 mvn deploy sonar:sonar
+                 
          '''
                 
             }
