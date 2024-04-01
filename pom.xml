@@ -77,11 +77,11 @@
 	</build>
 
 <distributionManagement>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>Artifactory West-snapshots</name>
-        <url>http://35.236.103.251:8081/artifactory/sameer-prefix-libs-snapshot</url>
-    </snapshotRepository>
+    <repository>
+        <id>central</id>
+        <name>a0mwc7hvxnq8z-artifactory-primary-0-releases</name>
+        <url>https://hammerland.jfrog.io/artifactory/ham-repo-libs-release</url>
+    </repository>
 </distributionManagement>
 	
 </project>
